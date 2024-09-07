@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.child{
+    width: 20%;
+    gap: 20px;
+    padding: 10px;
+    box-shadow: 2px 2px 3px black;
+    background-color: white;
+}
+.research{
+    height: 100vh;
+    background-image: url(./images/calc.webp);
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.child1,.child2,.child3,.child4{
+    margin: 20px;
+    text-align: center;
+}
